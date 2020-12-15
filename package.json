@@ -1,0 +1,27 @@
+{
+  "name": "standbot",
+  "version": "1.0.0",
+  "description": "A simple Slackbot to remind you to stand up and use your expensive desk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mccar402/StandBot.git"
+  },
+  "author": "Ellen McCartney <ellenmccartney17@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mccar402/StandBot/issues"
+  },
+  "homepage": "https://github.com/mccar402/StandBot#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "slackbots": "^1.2.0"
+  }
+}
